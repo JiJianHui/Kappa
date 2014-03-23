@@ -41,7 +41,7 @@ public class FleissKappa
                 cells[i-1][j-1] = Integer.valueOf( lists[j] );
             }
         }
-
+ 
         //2：开始计算pi和pj
 
         double[] pi = new double[rowNum];
